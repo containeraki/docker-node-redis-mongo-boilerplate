@@ -41,3 +41,18 @@
 
 ## What's next
     This is just a starter, so you can build your next project with containers.
+
+## Links which helped me during development
+    https://docs.docker.com/machine/get-started/#use-machine-to-run-docker-containers
+    https://www.digitalocean.com/community/tutorials/how-to-remove-docker-images-containers-and-volumes
+    https://blog.codeship.com/docker-machine-compose-and-swarm-how-they-work-together/
+    https://medium.com/@kahana.hagai/docker-compose-with-node-js-and-mongodb-dbdadab5ce0a
+    https://github.com/barrysteyn/node-scrypt/issues/160
+    https://medium.com/@mezgec.danilo/docker-cli-dockerfile-and-docker-compose-from-scratch-13291656a0ca
+    https://www.codeproject.com/Articles/1223882/Setting-Up-a-Redis-Test-Environment-using-Docker-C
+    https://codewithhugo.com/setting-up-express-and-redis-with-docker-compose/
+    https://github.com/docker-library/redis/issues/111
+    https://stackoverflow.com/questions/38623027/what-is-the-difference-between-docker-machine-and-docker-compose
+    https://expressjs.com/en/starter/hello-world.html
+    https://medium.com/the-code-review/top-10-docker-commands-you-cant-live-without-54fb6377f481
+
