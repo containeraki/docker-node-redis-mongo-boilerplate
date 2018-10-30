@@ -1,0 +1,43 @@
+version: '3'
+
+services:
+
+  redis:
+    image: redis
+    command: redis-server /usr/local/etc/redis/redis-example.conf
+    volumes:
+      - ./redis-example.conf:/usr/local/etc/redis/redis-example.conf
+    ports:
+      - "6380:6379"
+    networks:
+    - walkthrough
+  
+  mongo:
+    image: mongo
+    restart: always
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: ""
+      MONGO_INITDB_ROOT_PASSWORD: ""
+    volumes:
+    - ./data-example:/data-example/db
+    ports:
+      - 27018:27017
+    networks:
+    - walkthrough
+
+  node-boilerplate:
+    build: .
+    command: npm start
+    ports:
+    - 8000:8000
+    volumes:
+    - .:/app
+    - /app/node_modules
+    networks:
+    - walkthrough
+    depends_on:
+    - mongo
+    - redis
+
+networks:
+  walkthrough:

@@ -1,0 +1,31 @@
+{
+  "name": "docker-node-redis-mongo-boilerplate",
+  "version": "1.0.0",
+  "description": "Node Boilerplate",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/containeraki/docker-node-redis-mongo-boilerplate.git"
+  },
+  "keywords": [
+    "docker",
+    "node",
+    "redis",
+    "mongo"
+  ],
+  "author": "Akshat Sharma",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/containeraki/docker-node-redis-mongo-boilerplate/issues"
+  },
+  "homepage": "https://github.com/containeraki/docker-node-redis-mongo-boilerplate#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "mongodb": "^3.1.8",
+    "redis": "^2.8.0"
+  }
+}
