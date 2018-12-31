@@ -55,4 +55,5 @@
     https://stackoverflow.com/questions/38623027/what-is-the-difference-between-docker-machine-and-docker-compose
     https://expressjs.com/en/starter/hello-world.html
     https://medium.com/the-code-review/top-10-docker-commands-you-cant-live-without-54fb6377f481
+    https://github.com/duiliopastorelli/docker-walk-through/blob/master/Dockerfile
 
